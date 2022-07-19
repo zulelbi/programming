@@ -1,5 +1,5 @@
 /*
- *  
+ *  agrega un elemento en el array
  */
 
 
@@ -15,8 +15,7 @@ void printArray(int* arr){
 
 void addElement(int* array, int index, int n) {
 	
-	int i, nextvalue1, nextvalue2;
-	nextvalue1 = n;
+	int i, nextvalue1 = n, nextvalue2;
 	
 	for (i = index ; i <= MAX_LEN - 1; i++) {
 		nextvalue2 = array[i];	
